@@ -11,8 +11,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="BrandonGrotesque-Medium.ttf">
+        <array key="BrandonGrotesque-Medium.otf">
             <string>BrandonGrotesque-Medium</string>
+        </array>
+        <array key="BrandonGrotesque-Regular.ttf">
+            <string>BrandonGrotesque-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -150,6 +153,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
                                         <state key="normal" title="       Teachers Start Here       " image="arrow-right"/>
+                                        <connections>
+                                            <segue destination="hje-hO-Qrl" kind="show" id="BQp-dT-QXS"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Educational User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUC-OO-roU">
                                         <rect key="frame" x="436" y="490" width="241" height="52"/>
@@ -166,6 +172,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
                                         <state key="normal" title="       Students Start Here       " image="arrow-right"/>
+                                        <connections>
+                                            <segue destination="2W2-5y-mgP" kind="show" id="SGu-G9-v3M"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -206,6 +215,89 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mEO-iJ-9aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="814.74820143884892" y="151.79856115107916"/>
+        </scene>
+        <!--Signed Out Teacher View Controller-->
+        <scene sceneID="ato-oz-Shd">
+            <objects>
+                <viewController id="hje-hO-Qrl" customClass="SignedOutTeacherViewController" customModule="dillyBagApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q6w-N3-TlX">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMn-6B-axA">
+                                <rect key="frame" x="361.5" y="535" width="389" height="64"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="6RT-y2-ian"/>
+                                    <constraint firstAttribute="width" constant="389" id="LUI-Ou-hpM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
+                                <state key="normal" title="Sign in as a new user"/>
+                                <connections>
+                                    <segue destination="feY-1i-GlM" kind="show" id="rJ3-Ua-VVg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ration Shed Museum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxK-DT-uSf">
+                                <rect key="frame" x="403.5" y="188" width="305" height="37"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="0.56000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dilly Bag Adventure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAl-fr-xmA">
+                                <rect key="frame" x="301.5" y="247" width="509" height="92"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="64"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anzac Sponsor Lockup" translatesAutoresizingMaskIntoConstraints="NO" id="7vP-rV-S6F">
+                                <rect key="frame" x="868" y="650" width="213" height="156"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="156" id="VKH-0k-hxC"/>
+                                    <constraint firstAttribute="width" constant="213" id="dIF-n9-173"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhX-ye-XAv">
+                                <rect key="frame" x="361.5" y="449" width="389" height="64"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.71372549019999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="97k-F8-bRI"/>
+                                    <constraint firstAttribute="width" constant="389" id="JuS-jq-qDT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
+                                <state key="normal" title="Sign back in as Sally G"/>
+                                <connections>
+                                    <segue destination="3fd-So-iY1" kind="show" id="SBc-bC-e1k"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have been logged out." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="st5-lV-0fs">
+                                <rect key="frame" x="374.5" y="387" width="364" height="52"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qxK-DT-uSf" firstAttribute="top" secondItem="LCp-hy-E3d" secondAttribute="top" constant="168" id="3nj-OD-s3J"/>
+                            <constraint firstItem="QMn-6B-axA" firstAttribute="top" secondItem="NhX-ye-XAv" secondAttribute="bottom" constant="22" id="6KQ-pg-Wh6"/>
+                            <constraint firstItem="NhX-ye-XAv" firstAttribute="top" secondItem="st5-lV-0fs" secondAttribute="bottom" constant="10" id="8VN-en-wIu"/>
+                            <constraint firstItem="LCp-hy-E3d" firstAttribute="trailing" secondItem="7vP-rV-S6F" secondAttribute="trailing" constant="31" id="CIi-vR-dar"/>
+                            <constraint firstItem="QMn-6B-axA" firstAttribute="leading" secondItem="NhX-ye-XAv" secondAttribute="leading" id="EAu-Qi-mZi"/>
+                            <constraint firstItem="QMn-6B-axA" firstAttribute="centerX" secondItem="q6w-N3-TlX" secondAttribute="centerX" id="K4x-aj-Ufb"/>
+                            <constraint firstItem="uAl-fr-xmA" firstAttribute="top" secondItem="qxK-DT-uSf" secondAttribute="bottom" constant="22" id="TZQ-t9-k1K"/>
+                            <constraint firstItem="st5-lV-0fs" firstAttribute="centerX" secondItem="q6w-N3-TlX" secondAttribute="centerX" id="ViD-AQ-0Ii"/>
+                            <constraint firstItem="NhX-ye-XAv" firstAttribute="centerX" secondItem="q6w-N3-TlX" secondAttribute="centerX" id="dwJ-xq-Wh7"/>
+                            <constraint firstItem="qxK-DT-uSf" firstAttribute="centerX" secondItem="q6w-N3-TlX" secondAttribute="centerX" id="est-3M-D6i"/>
+                            <constraint firstItem="st5-lV-0fs" firstAttribute="top" secondItem="uAl-fr-xmA" secondAttribute="bottom" constant="48" id="inF-Zc-C9N"/>
+                            <constraint firstItem="LCp-hy-E3d" firstAttribute="bottom" secondItem="7vP-rV-S6F" secondAttribute="bottom" constant="28" id="kb9-Ob-igV"/>
+                            <constraint firstItem="uAl-fr-xmA" firstAttribute="centerX" secondItem="q6w-N3-TlX" secondAttribute="centerX" id="nyn-eO-H2u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LCp-hy-E3d"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHs-po-vhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="910"/>
         </scene>
         <!--Adventure Selection View Controller-->
         <scene sceneID="qNY-Su-ub3">
@@ -292,11 +384,248 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pU-33-zZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580" y="150"/>
+            <point key="canvasLocation" x="1963" y="-9"/>
+        </scene>
+        <!--Signed Out Student View Controller-->
+        <scene sceneID="X7z-UZ-TuK">
+            <objects>
+                <viewController id="2W2-5y-mgP" customClass="SignedOutStudentViewController" customModule="dillyBagApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lqQ-i3-irZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student/Participant Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-Uh-5gj">
+                                <rect key="frame" x="167" y="294" width="388" height="52"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Sally G" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TO2-si-NSd">
+                                <rect key="frame" x="170" y="370" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587328767124" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="wCn-Z0-SdC"/>
+                                    <constraint firstAttribute="width" constant="687" id="wyy-6a-yqt"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter school Class Code  (eg: MSHS11 - ask your teacher or one of the Rationshed staff) " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z4e-dl-csF">
+                                <rect key="frame" x="170" y="439" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587328767124" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="CdI-q7-5Is"/>
+                                    <constraint firstAttribute="width" constant="687" id="tvH-hh-UtW"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTX-C9-DF4">
+                                <rect key="frame" x="170" y="484" width="687" height="3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="SMY-qf-C0E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IS-6E-wuq">
+                                <rect key="frame" x="32" y="785" width="138" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="2Lw-W4-WkU"/>
+                                    <constraint firstAttribute="height" constant="24" id="Ve8-Qj-Orw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <state key="normal" title="    Exit Sign in" image="arrow-left">
+                                    <color key="titleColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="2W2-5y-mgP" eventType="touchUpInside" id="too-cn-A32"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tY3-n5-HKH">
+                                <rect key="frame" x="741" y="705" width="339" height="64"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="MkE-3B-hAV"/>
+                                    <constraint firstAttribute="width" constant="339" id="ZJw-vy-aRW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="20"/>
+                                <state key="normal" title="    Sign in and return to adventure    " image="arrow-right"/>
+                                <connections>
+                                    <segue destination="3fd-So-iY1" kind="show" id="9dc-0R-q0p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QTX-C9-DF4" firstAttribute="leading" secondItem="z4e-dl-csF" secondAttribute="leading" id="0QE-qz-l1m"/>
+                            <constraint firstItem="UpF-cO-3po" firstAttribute="trailing" secondItem="tY3-n5-HKH" secondAttribute="trailing" constant="32" id="2sS-JL-H2E"/>
+                            <constraint firstItem="QTX-C9-DF4" firstAttribute="trailing" secondItem="z4e-dl-csF" secondAttribute="trailing" id="5Jv-AC-o0o"/>
+                            <constraint firstItem="WUX-Uh-5gj" firstAttribute="leading" secondItem="UpF-cO-3po" secondAttribute="leading" constant="167" id="7mt-k1-Zcx"/>
+                            <constraint firstItem="z4e-dl-csF" firstAttribute="leading" secondItem="TO2-si-NSd" secondAttribute="leading" id="80U-6x-gQa"/>
+                            <constraint firstItem="UpF-cO-3po" firstAttribute="bottom" secondItem="7IS-6E-wuq" secondAttribute="bottom" constant="25" id="ENx-OO-A7S"/>
+                            <constraint firstItem="UpF-cO-3po" firstAttribute="bottom" secondItem="tY3-n5-HKH" secondAttribute="bottom" constant="65" id="EPv-tO-PHV"/>
+                            <constraint firstItem="z4e-dl-csF" firstAttribute="top" secondItem="TO2-si-NSd" secondAttribute="bottom" constant="21" id="OZg-9U-CUi"/>
+                            <constraint firstItem="TO2-si-NSd" firstAttribute="leading" secondItem="UpF-cO-3po" secondAttribute="leading" constant="170" id="PtB-J6-FkZ"/>
+                            <constraint firstItem="TO2-si-NSd" firstAttribute="top" secondItem="WUX-Uh-5gj" secondAttribute="bottom" constant="24" id="ZbU-UI-9cL"/>
+                            <constraint firstItem="QTX-C9-DF4" firstAttribute="bottom" secondItem="z4e-dl-csF" secondAttribute="bottom" id="ih6-Jh-L7Y"/>
+                            <constraint firstItem="7IS-6E-wuq" firstAttribute="leading" secondItem="UpF-cO-3po" secondAttribute="leading" constant="32.5" id="o1M-gw-lhn"/>
+                            <constraint firstItem="WUX-Uh-5gj" firstAttribute="top" secondItem="UpF-cO-3po" secondAttribute="top" constant="274" id="pEw-hr-zTR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UpF-cO-3po"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnSignInAndReturnToAdventure" destination="tY3-n5-HKH" id="YdV-G0-0Kc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihs-Hr-pV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485.9712230215828" y="911.51079136690657"/>
+        </scene>
+        <!--Teacher Sign In View Controller-->
+        <scene sceneID="3YB-Do-HJN">
+            <objects>
+                <viewController id="feY-1i-GlM" customClass="TeacherSignInViewController" customModule="dillyBagApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gRs-fj-K7h">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fu-jx-kVI">
+                                <rect key="frame" x="167" y="147" width="215.5" height="51.5"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="School name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FCr-fY-CM6">
+                                <rect key="frame" x="170" y="222.5" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587329999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="687" id="CW0-3l-aQt"/>
+                                    <constraint firstAttribute="height" constant="48" id="MXh-fd-0jj"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Teacher name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3hk-m6-gpY">
+                                <rect key="frame" x="170" y="291.5" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587329999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EyX-YO-rvf"/>
+                                    <constraint firstAttribute="width" constant="687" id="gkQ-va-amQ"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="School Class Code (eg: MSHS11)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rgZ-h0-FRU">
+                                <rect key="frame" x="170" y="360.5" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587329999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="687" id="i33-hp-fJj"/>
+                                    <constraint firstAttribute="height" constant="48" id="oD0-5J-PqG"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Teacher email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7kn-Kp-EtS">
+                                <rect key="frame" x="170" y="429.5" width="687" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="0.15298587329999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="687" id="LVq-bj-IGw"/>
+                                    <constraint firstAttribute="height" constant="48" id="qI5-Rq-oln"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ta-Fm-Y3H">
+                                <rect key="frame" x="170" y="508.5" width="660" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="660" id="mon-Jn-AWq"/>
+                                </constraints>
+                                <string key="text">By clicking submit I agree, that lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus sapien vitae magna rutrum quis ultricies augue convallis. Quisque porttitor tellus ut dui sodales elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel odio quis neque gravida rhoncus nec quis erat. </string>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIq-uQ-qNC">
+                                <rect key="frame" x="187" y="614.5" width="365" height="24"/>
+                                <state key="normal" title="       Download copy of Terms &amp; Conditions" image="download"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgY-Ap-lgb">
+                                <rect key="frame" x="741" y="705" width="339" height="64"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="339" id="zDI-wc-EEO"/>
+                                    <constraint firstAttribute="height" constant="64" id="zs4-8e-gK9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="20"/>
+                                <state key="normal" title="    Sign in &amp; Choose Adventure    " image="arrow-right"/>
+                                <connections>
+                                    <segue destination="3fd-So-iY1" kind="show" id="WkD-iL-Kfv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmH-XJ-OvY">
+                                <rect key="frame" x="32" y="791" width="138" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="LwD-6M-UcN"/>
+                                    <constraint firstAttribute="height" constant="24" id="iPI-vu-1hi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="18"/>
+                                <state key="normal" title="    Exit Sign in" image="arrow-left">
+                                    <color key="titleColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="2W2-5y-mgP" eventType="touchUpInside" id="0NW-EK-2Se"/>
+                                    <action selector="goBack:" destination="feY-1i-GlM" eventType="touchUpInside" id="zB2-IX-IfG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Ta-Fm-Y3H" firstAttribute="top" secondItem="7kn-Kp-EtS" secondAttribute="bottom" constant="31" id="7Nh-Ne-EbB"/>
+                            <constraint firstItem="7kn-Kp-EtS" firstAttribute="leading" secondItem="FCr-fY-CM6" secondAttribute="leading" id="AUv-p2-MX9"/>
+                            <constraint firstItem="4fu-jx-kVI" firstAttribute="top" secondItem="cTh-qb-DL9" secondAttribute="top" constant="127" id="B0G-Mt-GVA"/>
+                            <constraint firstItem="rgZ-h0-FRU" firstAttribute="leading" secondItem="FCr-fY-CM6" secondAttribute="leading" id="HVN-eL-ZD4"/>
+                            <constraint firstItem="cTh-qb-DL9" firstAttribute="bottom" secondItem="MgY-Ap-lgb" secondAttribute="bottom" constant="65" id="N9L-hW-R95"/>
+                            <constraint firstItem="4fu-jx-kVI" firstAttribute="leading" secondItem="cTh-qb-DL9" secondAttribute="leading" constant="167" id="Who-o2-cnC"/>
+                            <constraint firstItem="2Ta-Fm-Y3H" firstAttribute="leading" secondItem="7kn-Kp-EtS" secondAttribute="leading" id="XxD-70-rWb"/>
+                            <constraint firstItem="FCr-fY-CM6" firstAttribute="top" secondItem="4fu-jx-kVI" secondAttribute="bottom" constant="24" id="Zmz-Q7-Dfl"/>
+                            <constraint firstItem="rgZ-h0-FRU" firstAttribute="top" secondItem="3hk-m6-gpY" secondAttribute="bottom" constant="21" id="cc2-en-7xG"/>
+                            <constraint firstItem="cTh-qb-DL9" firstAttribute="bottom" secondItem="HmH-XJ-OvY" secondAttribute="bottom" constant="19" id="exm-aI-NmE"/>
+                            <constraint firstItem="cTh-qb-DL9" firstAttribute="trailing" secondItem="MgY-Ap-lgb" secondAttribute="trailing" constant="32" id="l7W-tg-SFn"/>
+                            <constraint firstItem="HmH-XJ-OvY" firstAttribute="leading" secondItem="cTh-qb-DL9" secondAttribute="leading" constant="32" id="lTT-Cc-dzX"/>
+                            <constraint firstItem="cIq-uQ-qNC" firstAttribute="leading" secondItem="cTh-qb-DL9" secondAttribute="leading" constant="187" id="nc0-IW-8hw"/>
+                            <constraint firstItem="3hk-m6-gpY" firstAttribute="top" secondItem="FCr-fY-CM6" secondAttribute="bottom" constant="21" id="ppl-P3-gRd"/>
+                            <constraint firstItem="cIq-uQ-qNC" firstAttribute="top" secondItem="2Ta-Fm-Y3H" secondAttribute="bottom" constant="20" id="pyb-uo-Zzc"/>
+                            <constraint firstItem="FCr-fY-CM6" firstAttribute="leading" secondItem="cTh-qb-DL9" secondAttribute="leading" constant="170" id="uDn-v6-bBg"/>
+                            <constraint firstItem="3hk-m6-gpY" firstAttribute="leading" secondItem="FCr-fY-CM6" secondAttribute="leading" id="vYg-BM-p5f"/>
+                            <constraint firstItem="7kn-Kp-EtS" firstAttribute="top" secondItem="rgZ-h0-FRU" secondAttribute="bottom" constant="21" id="x7T-su-l6C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cTh-qb-DL9"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnSignIn" destination="MgY-Ap-lgb" id="JZG-o1-ERG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sB-IP-Q8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="909"/>
         </scene>
     </scenes>
     <resources>
         <image name="Anzac Sponsor Lockup" width="213" height="156"/>
+        <image name="arrow-left" width="24" height="24"/>
         <image name="arrow-right" width="24" height="24"/>
+        <image name="download" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="9dc-0R-q0p"/>
+    </inferredMetricsTieBreakers>
 </document>

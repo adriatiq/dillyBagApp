@@ -26,6 +26,9 @@
 		8152232E2084B47400FFEF57 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152232D2084B47400FFEF57 /* UIView.swift */; };
 		815223302084BE0300FFEF57 /* AdventureSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */; };
 		815223322084BEC800FFEF57 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815223312084BEC800FFEF57 /* GeneralViewController.swift */; };
+		81D532552084EB3100938C89 /* SignedOutTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D532542084EB3100938C89 /* SignedOutTeacherViewController.swift */; };
+		81D532572084EBCF00938C89 /* SignedOutStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D532562084EBCF00938C89 /* SignedOutStudentViewController.swift */; };
+		81D532592084F7E800938C89 /* TeacherSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D532582084F7E800938C89 /* TeacherSignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		8152232D2084B47400FFEF57 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureSelectionViewController.swift; sourceTree = "<group>"; };
 		815223312084BEC800FFEF57 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		81D532542084EB3100938C89 /* SignedOutTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedOutTeacherViewController.swift; sourceTree = "<group>"; };
+		81D532562084EBCF00938C89 /* SignedOutStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedOutStudentViewController.swift; sourceTree = "<group>"; };
+		81D532582084F7E800938C89 /* TeacherSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 			children = (
 				8152232A2084AFC900FFEF57 /* HomeViewController.swift */,
 				8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */,
+				81D532542084EB3100938C89 /* SignedOutTeacherViewController.swift */,
+				81D532562084EBCF00938C89 /* SignedOutStudentViewController.swift */,
+				81D532582084F7E800938C89 /* TeacherSignInViewController.swift */,
 			);
 			path = Setup;
 			sourceTree = "<group>";
@@ -222,9 +231,12 @@
 				8152232E2084B47400FFEF57 /* UIView.swift in Sources */,
 				815222DB2084666900FFEF57 /* ViewController.swift in Sources */,
 				815223302084BE0300FFEF57 /* AdventureSelectionViewController.swift in Sources */,
+				81D532592084F7E800938C89 /* TeacherSignInViewController.swift in Sources */,
+				81D532552084EB3100938C89 /* SignedOutTeacherViewController.swift in Sources */,
 				815223322084BEC800FFEF57 /* GeneralViewController.swift in Sources */,
 				815222D92084666900FFEF57 /* AppDelegate.swift in Sources */,
 				8152232B2084AFC900FFEF57 /* HomeViewController.swift in Sources */,
+				81D532572084EBCF00938C89 /* SignedOutStudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
