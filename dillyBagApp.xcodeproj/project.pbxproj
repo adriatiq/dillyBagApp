@@ -12,6 +12,20 @@
 		815222DE2084666900FFEF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815222DC2084666900FFEF57 /* Main.storyboard */; };
 		815222E02084666A00FFEF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815222DF2084666A00FFEF57 /* Assets.xcassets */; };
 		815222E32084666B00FFEF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815222E12084666B00FFEF57 /* LaunchScreen.storyboard */; };
+		815222F620846AFE00FFEF57 /* BrandonGrotesque-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815222EC20846AFC00FFEF57 /* BrandonGrotesque-Bold.otf */; };
+		815222F720846AFE00FFEF57 /* BrandonGrotesque-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815222ED20846AFC00FFEF57 /* BrandonGrotesque-Medium.otf */; };
+		815222F820846AFE00FFEF57 /* BrandonGrotesque-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815222EE20846AFD00FFEF57 /* BrandonGrotesque-Light.otf */; };
+		815222F920846AFE00FFEF57 /* BrandonGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 815222EF20846AFD00FFEF57 /* BrandonGrotesque-Light.ttf */; };
+		815222FA20846AFE00FFEF57 /* BrandonGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F020846AFD00FFEF57 /* BrandonGrotesque-Regular.ttf */; };
+		815222FB20846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F120846AFD00FFEF57 /* BrandonGrotesque-RegularItalic.ttf */; };
+		815222FC20846AFE00FFEF57 /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F220846AFD00FFEF57 /* BrandonGrotesque-Bold.ttf */; };
+		815222FD20846AFE00FFEF57 /* BrandonGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F320846AFE00FFEF57 /* BrandonGrotesque-Medium.ttf */; };
+		815222FE20846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F420846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.otf */; };
+		815222FF20846AFE00FFEF57 /* BrandonGrotesque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 815222F520846AFE00FFEF57 /* BrandonGrotesque-Regular.otf */; };
+		8152232B2084AFC900FFEF57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152232A2084AFC900FFEF57 /* HomeViewController.swift */; };
+		8152232E2084B47400FFEF57 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152232D2084B47400FFEF57 /* UIView.swift */; };
+		815223302084BE0300FFEF57 /* AdventureSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */; };
+		815223322084BEC800FFEF57 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815223312084BEC800FFEF57 /* GeneralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		815222DF2084666A00FFEF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815222E22084666B00FFEF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815222E42084666B00FFEF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815222EC20846AFC00FFEF57 /* BrandonGrotesque-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.otf"; sourceTree = "<group>"; };
+		815222ED20846AFC00FFEF57 /* BrandonGrotesque-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.otf"; sourceTree = "<group>"; };
+		815222EE20846AFD00FFEF57 /* BrandonGrotesque-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.otf"; sourceTree = "<group>"; };
+		815222EF20846AFD00FFEF57 /* BrandonGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		815222F020846AFD00FFEF57 /* BrandonGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		815222F120846AFD00FFEF57 /* BrandonGrotesque-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-RegularItalic.ttf"; sourceTree = "<group>"; };
+		815222F220846AFD00FFEF57 /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		815222F320846AFE00FFEF57 /* BrandonGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		815222F420846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-RegularItalic.otf"; sourceTree = "<group>"; };
+		815222F520846AFE00FFEF57 /* BrandonGrotesque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.otf"; sourceTree = "<group>"; };
+		8152232A2084AFC900FFEF57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8152232D2084B47400FFEF57 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureSelectionViewController.swift; sourceTree = "<group>"; };
+		815223312084BEC800FFEF57 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,9 @@
 		815222D72084666900FFEF57 /* dillyBagApp */ = {
 			isa = PBXGroup;
 			children = (
+				8152232C2084B44F00FFEF57 /* UtilityClasses */,
+				815223292084AFA700FFEF57 /* Setup */,
+				815222EA20846AE400FFEF57 /* Resources */,
 				815222D82084666900FFEF57 /* AppDelegate.swift */,
 				815222DA2084666900FFEF57 /* ViewController.swift */,
 				815222DC2084666900FFEF57 /* Main.storyboard */,
@@ -62,6 +93,49 @@
 				815222E42084666B00FFEF57 /* Info.plist */,
 			);
 			path = dillyBagApp;
+			sourceTree = "<group>";
+		};
+		815222EA20846AE400FFEF57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				815222EB20846AF100FFEF57 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		815222EB20846AF100FFEF57 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				815222EC20846AFC00FFEF57 /* BrandonGrotesque-Bold.otf */,
+				815222F220846AFD00FFEF57 /* BrandonGrotesque-Bold.ttf */,
+				815222EE20846AFD00FFEF57 /* BrandonGrotesque-Light.otf */,
+				815222EF20846AFD00FFEF57 /* BrandonGrotesque-Light.ttf */,
+				815222ED20846AFC00FFEF57 /* BrandonGrotesque-Medium.otf */,
+				815222F320846AFE00FFEF57 /* BrandonGrotesque-Medium.ttf */,
+				815222F520846AFE00FFEF57 /* BrandonGrotesque-Regular.otf */,
+				815222F020846AFD00FFEF57 /* BrandonGrotesque-Regular.ttf */,
+				815222F420846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.otf */,
+				815222F120846AFD00FFEF57 /* BrandonGrotesque-RegularItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		815223292084AFA700FFEF57 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				8152232A2084AFC900FFEF57 /* HomeViewController.swift */,
+				8152232F2084BE0300FFEF57 /* AdventureSelectionViewController.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		8152232C2084B44F00FFEF57 /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8152232D2084B47400FFEF57 /* UIView.swift */,
+				815223312084BEC800FFEF57 /* GeneralViewController.swift */,
+			);
+			path = UtilityClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +196,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815222FF20846AFE00FFEF57 /* BrandonGrotesque-Regular.otf in Resources */,
 				815222E32084666B00FFEF57 /* LaunchScreen.storyboard in Resources */,
+				815222FB20846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.ttf in Resources */,
+				815222F920846AFE00FFEF57 /* BrandonGrotesque-Light.ttf in Resources */,
+				815222FA20846AFE00FFEF57 /* BrandonGrotesque-Regular.ttf in Resources */,
+				815222FD20846AFE00FFEF57 /* BrandonGrotesque-Medium.ttf in Resources */,
+				815222FC20846AFE00FFEF57 /* BrandonGrotesque-Bold.ttf in Resources */,
+				815222F820846AFE00FFEF57 /* BrandonGrotesque-Light.otf in Resources */,
+				815222F620846AFE00FFEF57 /* BrandonGrotesque-Bold.otf in Resources */,
 				815222E02084666A00FFEF57 /* Assets.xcassets in Resources */,
+				815222FE20846AFE00FFEF57 /* BrandonGrotesque-RegularItalic.otf in Resources */,
+				815222F720846AFE00FFEF57 /* BrandonGrotesque-Medium.otf in Resources */,
 				815222DE2084666900FFEF57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8152232E2084B47400FFEF57 /* UIView.swift in Sources */,
 				815222DB2084666900FFEF57 /* ViewController.swift in Sources */,
+				815223302084BE0300FFEF57 /* AdventureSelectionViewController.swift in Sources */,
+				815223322084BEC800FFEF57 /* GeneralViewController.swift in Sources */,
 				815222D92084666900FFEF57 /* AppDelegate.swift in Sources */,
+				8152232B2084AFC900FFEF57 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
