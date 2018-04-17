@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="BrandonGrotesque-Medium.otf">
+        <array key="BrandonGrotesque-Medium.ttf">
             <string>BrandonGrotesque-Medium</string>
         </array>
         <array key="BrandonGrotesque-Regular.ttf">
@@ -19,6 +19,22 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="m0F-DV-vRT">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="ga1-vi-yrj" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vZM-C3-QdL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Tm-Dp-f8j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="htG-4k-KyR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-922" y="-511"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -92,6 +108,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3pX-Mv-BAU"/>
                     <connections>
                         <outlet property="loadingLabelWidth" destination="MFy-3f-V0V" id="sZg-XE-cok"/>
                         <segue destination="ETD-gd-5vH" kind="show" identifier="toStart" id="Qd4-5T-EhU"/>
@@ -326,6 +343,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
                                 <state key="normal" title="Orientation"/>
+                                <connections>
+                                    <segue destination="pa5-xc-dUg" kind="show" id="KqF-8U-BkD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ration Shed Museum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQB-gt-udC">
                                 <rect key="frame" x="170" y="158" width="305" height="37"/>
@@ -342,6 +362,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="30"/>
                                 <state key="normal" title="Boys From Barambha Exibhition Adventure"/>
+                                <connections>
+                                    <segue destination="hZZ-QM-h5N" kind="show" id="RH6-QG-pLz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dilly Bag Adventure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaG-tv-ndD">
                                 <rect key="frame" x="170" y="212" width="509" height="92"/>
@@ -384,7 +407,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pU-33-zZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1963" y="-9"/>
+            <point key="canvasLocation" x="2327" y="298"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xTb-v1-w8E">
+            <objects>
+                <viewController id="pa5-xc-dUg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wiR-l4-aVq">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PTS-G2-BtM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EnZ-zt-jBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3017" y="298"/>
+        </scene>
+        <!--BoysFromBarambha-->
+        <scene sceneID="LXN-25-EwC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="BFB" storyboardName="BoysFromBarambha" id="hZZ-QM-h5N" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2rs-w8-SWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2582" y="682"/>
         </scene>
         <!--Signed Out Student View Controller-->
         <scene sceneID="X7z-UZ-TuK">
@@ -626,6 +672,6 @@
         <image name="download" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9dc-0R-q0p"/>
+        <segue reference="Zop-pq-VDV"/>
     </inferredMetricsTieBreakers>
 </document>
