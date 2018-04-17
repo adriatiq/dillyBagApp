@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JM3-C4-48l">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BrandonGrotesque-Medium.ttf">
+            <string>BrandonGrotesque-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Boys From Baramha Loading View Controller-->
+        <scene sceneID="NnO-Sa-EL2">
+            <objects>
+                <viewController storyboardIdentifier="BFB" id="JM3-C4-48l" customClass="BoysFromBaramhaLoadingViewController" customModule="dillyBagApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="48e-ga-g1f">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boys From Barambah Adventure" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zu-Rg-eLR">
+                                <rect key="frame" x="170.5" y="246.5" width="684" height="211.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="684" id="S3m-YT-L8n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="74"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ration Shed Museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HY-0L-Nfd">
+                                <rect key="frame" x="359.5" y="185.5" width="305" height="37"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="0.56000000000000005" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nng-U8-pAD">
+                                <rect key="frame" x="769" y="639" width="220" height="64"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hy0-gf-fA2">
+                                        <rect key="frame" x="0.0" y="0.0" width="10" height="64"/>
+                                        <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="69s-p3-eIV"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading adventure" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXK-ia-PEP">
+                                        <rect key="frame" x="38" y="17.5" width="144.5" height="29"/>
+                                        <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Nym-z7-hoW"/>
+                                    <constraint firstAttribute="height" constant="64" id="QQQ-SC-d5a"/>
+                                    <constraint firstItem="LXK-ia-PEP" firstAttribute="centerX" secondItem="Nng-U8-pAD" secondAttribute="centerX" id="RMQ-ed-XOB"/>
+                                    <constraint firstItem="hy0-gf-fA2" firstAttribute="top" secondItem="Nng-U8-pAD" secondAttribute="top" id="Wqw-pB-Bt5"/>
+                                    <constraint firstItem="hy0-gf-fA2" firstAttribute="leading" secondItem="Nng-U8-pAD" secondAttribute="leading" id="dO1-FZ-yIh"/>
+                                    <constraint firstAttribute="bottom" secondItem="hy0-gf-fA2" secondAttribute="bottom" id="t7e-4N-e0m"/>
+                                    <constraint firstItem="LXK-ia-PEP" firstAttribute="centerY" secondItem="Nng-U8-pAD" secondAttribute="centerY" id="y68-vh-jk8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7HY-0L-Nfd" firstAttribute="centerX" secondItem="48e-ga-g1f" secondAttribute="centerX" id="8R9-5y-3gS"/>
+                            <constraint firstItem="8zu-Rg-eLR" firstAttribute="centerX" secondItem="48e-ga-g1f" secondAttribute="centerX" id="Dji-wg-IJb"/>
+                            <constraint firstItem="8zu-Rg-eLR" firstAttribute="top" secondItem="7HY-0L-Nfd" secondAttribute="bottom" constant="24" id="Gy2-VL-2UV"/>
+                            <constraint firstItem="yP6-Gz-lAn" firstAttribute="bottom" secondItem="Nng-U8-pAD" secondAttribute="bottom" constant="65" id="HvF-zm-4m5"/>
+                            <constraint firstItem="yP6-Gz-lAn" firstAttribute="trailing" secondItem="Nng-U8-pAD" secondAttribute="trailing" constant="35" id="KlK-df-89z"/>
+                            <constraint firstItem="yP6-Gz-lAn" firstAttribute="bottom" secondItem="8zu-Rg-eLR" secondAttribute="bottom" constant="310" id="SUP-1c-KnE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yP6-Gz-lAn"/>
+                    </view>
+                    <connections>
+                        <outlet property="loadingWidth" destination="69s-p3-eIV" id="mLz-CE-0Sw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WoK-Jl-zGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127" y="16"/>
+        </scene>
+    </scenes>
+</document>

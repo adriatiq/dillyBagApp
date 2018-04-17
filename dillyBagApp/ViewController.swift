@@ -15,7 +15,10 @@ class ViewController: GeneralViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        AnimateHeight()
+        AnimateHeight(widthConst: loadingLabelWidth, to: 389) {
+            self.performSegue(withIdentifier: "toStart", sender: self)
+        }
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
   
@@ -25,15 +28,15 @@ class ViewController: GeneralViewController {
     }
 
 
-    func AnimateHeight() {
-        self.loadingLabelWidth.constant = 389
-        self.view.needsUpdateConstraints()
-        UIView.animate(withDuration: 1.0, animations: {
-            self.view.layoutIfNeeded()
-        }) { (isComplete) in
-        self.performSegue(withIdentifier: "toStart", sender: self)
-        }
-        
-    }
+//    func AnimateHeight() {
+//        self.loadingLabelWidth.constant = 389
+//        self.view.needsUpdateConstraints()
+//        UIView.animate(withDuration: 1.0, animations: {
+//            self.view.layoutIfNeeded()
+//        }) { (isComplete) in
+//        self.performSegue(withIdentifier: "toStart", sender: self)
+//        }
+//        
+//    }
 }
 

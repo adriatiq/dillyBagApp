@@ -14,6 +14,7 @@ class GeneralViewController: UIViewController {
         super.viewWillAppear(animated)
         self.view.setBackground()
         self.view.subViewGayab()
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -27,6 +28,16 @@ class GeneralViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func AnimateHeight(widthConst: NSLayoutConstraint, to Width: CGFloat, completion:@escaping ()->()) {
+        widthConst.constant = Width
+        self.view.needsUpdateConstraints()
+        UIView.animate(withDuration: 1.0, animations: {
+            self.view.layoutIfNeeded()
+        }) { (isComplete) in
+            completion()
+        }
+        
     }
     
 
